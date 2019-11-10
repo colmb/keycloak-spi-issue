@@ -58,6 +58,7 @@
 				<version>3.2.0</version>
 				<configuration>
 					<archive>
+						<!-- I DONT THINK THIS IS STRICTLY NEEDED WHEN USING AN EAR DEPLOYMENT - HOWEVER, I THOUGHT I WOULD TRY IT OUT -->
 						<manifestEntries>
 							<Dependencies>org.keycloak.keycloak-services,org.keycloak.keycloak-server-spi,org.keycloak.keycloak-server-spi-private,org.keycloak.keycloak-ldap-federation</Dependencies>
 						</manifestEntries>
