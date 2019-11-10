@@ -1,0 +1,13 @@
+<jboss-deployment-structure>
+    <deployment>
+        <dependencies>
+        	<module name="org.keycloak.keycloak-core" services="import"/>
+            <module name="org.keycloak.keycloak-server-spi" services="import"/>
+            <module name="org.keycloak.keycloak-server-spi-private" services="import" />
+            <module name="org.keycloak.keycloak-services" services="import"/>
+            <module name="org.keycloak.keycloak-common" services="import"/>
+            <module name="org.keycloak.keycloak-ldap-federation" services="import" />
+            <module name="org.jboss.logging" />
+        </dependencies>
+    </deployment>
+</jboss-deployment-structure>
